@@ -47,6 +47,16 @@ And similar for the other microcontroller classes.
 The included `fetch_from_upstream.sh` script can automatically copy and process
 new source code from an STM git repository.
 
+Licences
+========
+
+The `LICENSE.md` of each upstream HAL driver (BSD-3-Clause) and CMSIS device
+(Apache-2.0) repository is copied next to the code it covers, for example
+`STM32F4xx_HAL_Driver/LICENSE.md` and `CMSIS/STM32F4xx/LICENSE.md`. Many source
+files only refer to "the LICENSE file in the root directory of this software
+component", and that is the file they mean. A file that carries its own licence
+header keeps the licence of that header.
+
 Updating to a new vendor version
 =================================
 
