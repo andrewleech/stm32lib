@@ -50,10 +50,10 @@ new source code from an STM git repository.
 Licences
 ========
 
-Upstream HAL driver repositories use BSD-3-Clause, and CMSIS device repositories
-use Apache-2.0. `fetch_from_upstream.sh` keeps each repository's `LICENSE.md`
-with its component. Many source files refer to that file for their licence. A
-file with its own licence header keeps that licence.
+The upstream HAL driver repositories' default licence is BSD-3-Clause, and the
+CMSIS device repositories' default is Apache-2.0. `fetch_from_upstream.sh` keeps
+each repository's `LICENSE.md` with its component. Some files have their own
+licence headers, which take precedence over the component's default licence.
 
 Updating to a new vendor version
 =================================
